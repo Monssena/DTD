@@ -1,0 +1,62 @@
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAF0E6;
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+  color: #191970;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #DAA520;
+}
+
+/* Content container styles */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Task list styles */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+button {
+  background-color: #DAA520; /* Green color */
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Link styles */
+a {
+  color: #191970;
+  text-decoration: none;
+}
+
